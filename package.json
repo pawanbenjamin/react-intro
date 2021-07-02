@@ -4,13 +4,15 @@
   "description": "Into to react lesson",
   "main": "index.js",
   "scripts": {
-    "letsGo": "node index.js",
     "start": "parcel public/index.html",
-    "build": "parcel build public/index.html"
+    "start-server": "nodemon src/server"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.9",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
